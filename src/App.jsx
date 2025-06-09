@@ -4,7 +4,7 @@ import Search from "./components/Search.jsx";
 import MovieCard from "./components/MovieCard.jsx";
 import { useDebounce } from "react-use";
 import { getTrendingMovies, updateSearchCount } from "./appwrite.js";
-import Spinner from "./components/spinner.jsx";
+import Spinner from "./components/Spinner.jsx";
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
 
