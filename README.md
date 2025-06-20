@@ -1,13 +1,69 @@
-# React + Vite
+# Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application to search, discover, and explore movies. Built with React and Vite for fast performance and a smooth user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for movies by title
+- View detailed information about each movie
+- Responsive and clean UI
+- Loading spinners for better UX
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Movie-app" 
+Add a link to your live demo here if available.
+
+## Screenshots
+
+Add screenshots of your app here if available.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+
+```bash
+npm install
+```
+
+### Running the App
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173` by default.
+
+## Project Structure
+
+```
+Movie-app/
+├── public/           # Static assets (images, favicon, etc.)
+├── src/              # Source code
+│   ├── components/   # React components
+│   ├── assets/       # Additional assets
+│   ├── App.jsx       # Main App component
+│   └── main.jsx      # Entry point
+├── index.html        # HTML template
+├── package.json      # Project metadata and scripts
+└── README.md         # Project documentation
+```
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](LICENSE)
